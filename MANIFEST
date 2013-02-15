@@ -1,7 +1,7 @@
 bin/cssflip
 Changes
-lib/CSS/Flip.pod
 lib/CSS/Janus.pm
+lib/CSS/Janus/Consts.pm
 Makefile.PL
 MANIFEST			This list of files
 META.json
@@ -32,3 +32,4 @@ t/21NoFlip.t
 t/22BorderRadiusNotation.t
 t/23GradientNotation.t
 t/pod.t
+TODO
