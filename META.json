@@ -3,8 +3,8 @@
    "author" : [
       "Hatuka*nezumi - IKEDA Soji <hatuka@nezumi.nu>"
    ],
-   "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.120921",
+   "dynamic_config" : "1",
+   "generated_by" : "ExtUtils::MakeMaker version 6.68, CPAN::Meta::Converter version 2.120630",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,8 @@
    "no_index" : {
       "directory" : [
          "t",
-         "inc"
+         "inc",
+         "lib/CSS/Yamaantaka"
       ]
    },
    "prereqs" : {
@@ -32,6 +33,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Pod::Usage" : "0",
             "Test::More" : "0.45",
             "perl" : "5.005"
          }
@@ -43,8 +45,8 @@
          "http://dev.perl.org/licenses/"
       ],
       "repository" : {
-         "url" : "http://repos.nezumi.nu/repos/CSS-Flip/"
+         "url" : "https://github.com/hatukanezumi/CSS-Flip"
       }
    },
-   "version" : "0.04_01"
+   "version" : "0.04_03"
 }
